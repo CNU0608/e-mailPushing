@@ -2,7 +2,7 @@
 
 > 在laravel更早之前的版本中，实现邮件发送功能是很容易的一件事情，但是在Laravel5.3之后，感觉邮件发送功能变得更加人性化、nice了，实现起来还要简单。好啦！废话不多扯直接开车吧。。
 
-在laravel5.3之后，laravel为我们提供了email类，连接数据库后，我们可以通过
+在laravel5.3之后，laravel为我们提供了mail类，连接数据库后，我们可以通过
 ```php
     $ php artisan make:mail welcomeToMail
 ```
